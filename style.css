@@ -1,0 +1,267 @@
+#body{
+    margin: 0;
+    padding: 0;
+    background-color: #9d9dd6;
+   
+}
+
+img{
+    width: 100;
+    height: auto;
+}
+
+/*UTILITY CLASSES*/
+#container{
+    max-width: 1200;
+    padding: 0 1.5rem;
+    margin: auto;
+    overflow: hidden;
+}
+
+.btn{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 4rem;
+    text-align: center;
+    display: inline-block;
+    padding: .3rem 1.5rem;
+    border-radius: 1px;
+    background-color: #ff0040;
+    transition: all .5s ease-in-out;
+}
+
+#btn :hover{
+    background-color: rgb(230, 14,14);
+}
+
+/* ABOUT PAGE */
+#about{
+    height: 100vh;
+    background-color: #444;
+}
+
+
+#nav-bar{
+    background-color: brown;
+    color: #fff;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+}
+
+#nav-bar ul{
+    list-style: none;
+    display: flex;
+    
+}
+
+#nav-bar ul a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #eee;
+    margin: 0.5rem;
+    font-weight: 300;
+    transition: transform .5s;
+    
+}
+
+#nav-bar ul a:hover{
+    background-color:#ff0040;
+}
+
+#about .container{
+    height: 100pt;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title{
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    line-height: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.lead{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#caption{
+    color: rgb(230, 248,240);
+}
+
+
+ul{
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+    justify-content: right;
+}
+
+li{
+    color: white;
+    padding: 30px 15px;
+    font-size: 20px;
+}
+
+#welcome-section{
+    background-color: rgb(49, 42, 42);
+    color: aliceblue;
+    height: 460px;
+    text-align: center;
+    padding-top: 90px;
+}
+
+h1, h2, h3{
+    margin: 0;
+}
+
+h1{
+    font-size: 60px;
+}
+
+h3{
+    color: #ff0040;
+    font-size: 30px;
+}
+
+#projects{
+    text-align: center;
+    padding: 7rem .3rem;
+    background-color: rgb(111, 96, 245);
+}
+
+#projects .projects{
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-row-gap: 3rem;
+    grid-column-gap: 2rem;
+    margin-top: 2rem;
+}
+
+#project .container>h1{
+    font-size: 1.6rem;
+    color:#00000e;
+    font-weight: bolder;
+    text-transform: capitalize;
+    margin-bottom: 6rem;
+    line-height: 1.2;
+}
+
+#bottom-line{
+    height: 4px;
+    background-color: #fff;
+    width: auto;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+#projects .projects .boc{
+    background-color: #eee;
+    border: 5px solid;
+    border-radius: 3px;
+}
+
+#projects .projects .bax a{
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#projects .projects .bax a p{
+    padding: 1.5rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-align: center;
+    color: #f8f6ec;
+}
+
+.code {
+    color: #eee;
+    transition: all ease;
+    font-size: 1.6rem;
+}
+
+#projects .projects .box:hover code{
+    color: #ff0040;
+}
+
+/* CONTACT SECTION */
+#contact{
+    height: 80vh;
+    background-color: #444;
+    color: #fff;
+}
+
+#contact .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#contact .container h1{
+    font-size: 3.4;
+    font-weight: bolder;
+    padding-bottom: .1rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+#contact .container p{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+#contact .container .social>div a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #eee;
+    margin: 1rem 2rem;
+    font-weight: bolder;
+    transition: transform .5s;
+}
+
+#contact .container .social>div a :hover{
+    transform: translateY(-5px);
+}
+
+/* FOOTER SECTION */
+#main-footer{
+    border-top: solid 4px #ff0040;
+    padding: 1rem;
+    background-color: #444;
+    color: #fff;
+}
+
+#main-footer .container{
+    padding: 1rem 0rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#main-footer .container p{
+    font-size: 1.2rem;
+}
+
+#main-footer #creator a{
+    text-decoration: underline;
+    color: #fff;
+}
+
+
+/*SMART PHONE*/
+
+
+
